@@ -32,6 +32,35 @@ export default function Navbar() {
 }
 
 const NavWrapper = styled.nav`
+  background: var(--mainGrey);
+  border-bottom: 3px solid var(--primaryColor);
+  padding: 1rem 1.5rem;
   position: -webkit-sticky;
+  position: sticky;
   top: 0;
+  width: 100%;
+  .nav-center {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  .nav-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .nav-cart {
+    position: relative;
+  }
+  .cart-items {
+    background-color: var(--primaryColor);
+    border-radius: 50%;
+    color: var(--mainWhite);
+    font-size: 0.85rem;
+    padding: 0 5px;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+  }
 `;
