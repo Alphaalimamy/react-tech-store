@@ -36,15 +36,15 @@ body {
 }
 
 .main-link {
-  padding: 0.5rem 1rem;
   background: var(--primaryColor);
+  border: none;
   color: var(--mainWhite);
   display: inline-block;
-  text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
   outline: 2px solid var(--primaryColor);
-  outline-offset: 4px;
-  border: none;
+  outline-offset: 5px;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
   text-decoration: none;
   transition: var(--mainTransition);
 }
@@ -54,4 +54,5 @@ body {
   text-decoration: none;
   color: var(--primaryColor);
   outline-color: var(--darkGrey);
+  transform: scale(1.2);
 }
