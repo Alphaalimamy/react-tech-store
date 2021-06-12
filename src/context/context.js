@@ -9,8 +9,9 @@ class ProductProvider extends Component {
   state = {
     sidebarOpen: false,
     cartOpen: false,
-    cartItems: 33,
+    cartItems: 3,
     links: linkData,
+    cart: [],
   };
 
   // HANDLE SIDEBAR
