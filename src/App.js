@@ -13,6 +13,7 @@ import SingleProduct from "./pages/SingleProductPages";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 import Sidecart from "./components/Sidecart";
+import Footer from "./components/Footer";
 // REACT-ROUTER
 import { Route, Switch } from "react-router-dom";
 import React, { Component } from "react";
@@ -34,6 +35,8 @@ export default class App extends Component {
           <Route path="/cart" component={Cart} />
           <Route component={Default} />
         </Switch>
+
+        <Footer />
       </>
     );
   }
