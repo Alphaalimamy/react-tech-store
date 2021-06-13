@@ -10,7 +10,7 @@ export default function Sidecart() {
 
         return (
           <CartWrapper show={cartOpen} onClick={closeCart}>
-            <p>cart items</p>
+            <p>{cart}</p>
           </CartWrapper>
         );
       }}
